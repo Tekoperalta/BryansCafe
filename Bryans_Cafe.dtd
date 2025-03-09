@@ -1,0 +1,8 @@
+<!ELEMENT Products (Product+)>
+
+<!ELEMENT Product (Name, Price, Description, Img, Sound)>
+<!ELEMENT Name (#PCDATA)>
+<!ELEMENT Price (#PCDATA)>
+<!ELEMENT Description (#PCDATA)>
+<!ELEMENT Img (#PCDATA)>
+<!ELEMENT Sound (#PCDATA)>
